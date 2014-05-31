@@ -1,0 +1,5 @@
+x-fix footprint for 100uF cap (yes, it's _really_ 100uF!) 1210 maybe
+x-change footprint for diodes? Don't bother.
+x-Can we get the other two transistors in sot23 (no, maybe another high gain transistor?)
+x-Add polarity labels for LEDs and microphone
+

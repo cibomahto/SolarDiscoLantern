@@ -8141,13 +8141,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="1.2K"/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="39K"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="51K"/>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="39K"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="51K"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="39k"/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="1M_DNP"/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0603" value="100uF"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C1210" value="100uF"/>
 <part name="C2" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C0603" value=".1uF"/>
@@ -8162,8 +8162,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SOLAR" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="AAA"/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOT23_REFLOW"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0603" value="1.2k"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0603" value="1.2k"/>
 <part name="T4" library="blinkinlabs" deviceset="2N2222" device="B"/>
 <part name="T5" library="blinkinlabs" deviceset="2N2907*" device="B"/>
 <part name="D2" library="adafruit" deviceset="DIODE" device="SOT23_REFLOW"/>
@@ -8179,12 +8179,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="U$1" library="SparkFun-Sensors" deviceset="MIC" device="9.7MM"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="5MM" value="PURPLE"/>
-<part name="LED2" library="adafruit" deviceset="LED" device="5MM" value="WHITE"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="5MM" value="DISCO"/>
+<part name="LED2" library="adafruit" deviceset="LED" device="5MM" value="DECAF"/>
 <part name="R13" library="adafruit" deviceset="R-US_" device="R0603" value="600"/>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="0"/>
 <part name="CURRENT_MEASURE" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="C7" library="adafruit" deviceset="C-US" device="C0603" value="100uF DNP"/>
+<part name="C7" library="adafruit" deviceset="C-US" device="C1210" value="100uF DNP"/>
 <part name="GAIN" library="SparkFun-Electromechanical" deviceset="AYZ0202" device=""/>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="15K"/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="15K"/>
@@ -8195,6 +8195,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="10.16" y="73.66" size="3.81" layer="91">Solar Charger/Power Booster</text>
 <text x="10.16" y="165.1" size="3.81" layer="91">Sound Detection</text>
 <text x="185.42" y="160.02" size="3.81" layer="91">Lighting FX</text>
+<text x="27.94" y="7.62" size="1.778" layer="91">Ball Grazing:
+Solar charger circuit based on
+the 'Kimono Lantern' design
+by Akiba.</text>
+<text x="5.08" y="96.52" size="1.778" layer="91">Note: Connected backwards
+to make the silk line up</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="30.48" y="109.22"/>
@@ -8251,7 +8257,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND3" gate="G$1" x="134.62" y="43.18"/>
 <instance part="GND4" gate="G$1" x="58.42" y="43.18"/>
 <instance part="GND5" gate="G$1" x="20.32" y="15.24"/>
-<instance part="U$1" gate="G$1" x="20.32" y="106.68" rot="R90"/>
+<instance part="U$1" gate="G$1" x="20.32" y="104.14" rot="R90"/>
 <instance part="LED1" gate="G$1" x="182.88" y="124.46"/>
 <instance part="LED2" gate="G$1" x="195.58" y="124.46"/>
 <instance part="R13" gate="G$1" x="195.58" y="147.32" rot="R270"/>
@@ -8324,13 +8330,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="132.08" y="93.98"/>
 <junction x="121.92" y="93.98"/>
 <junction x="111.76" y="93.98"/>
-<wire x1="22.86" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="195.58" y1="119.38" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
 <junction x="152.4" y="93.98"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="T4" gate="G$1" pin="C"/>
@@ -8507,13 +8513,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="132.08" y="109.22"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -8656,9 +8655,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="83.82" y1="139.7" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="109.22" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
